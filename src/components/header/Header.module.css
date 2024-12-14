@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: space-between; /* Распределяем элементы по краям */
+    align-items: center;           /* Выравниваем по вертикали */
+    padding: 5px 10px;
+    background-color: #f9dbdb;
+  }
+  
+  .logo {
+    flex: 1; /* Занимает доступное пространство */
+  }
+  
+  .logo img {
+    max-height: 110px; /* Ограничиваем высоту логотипа */
+  }
+  

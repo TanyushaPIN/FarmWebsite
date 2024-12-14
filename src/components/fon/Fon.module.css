@@ -1,0 +1,7 @@
+.fon {
+    background-image: url('./fon2.jpg'); /* путь к картинке,! */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 1; /* Занимает все оставшееся пространство */
+  }
