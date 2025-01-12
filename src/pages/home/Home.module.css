@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'GreatVibes';
+    src: url('../../fonts/GreatVibes-Regular.ttf') format('truetype');
+}
+.deviz {
+    font-family:GreatVibes;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-left: 900px;
+}
+.deviz h3 {
+    margin-bottom: 10px; /* Уменьшите это значение, чтобы уменьшить промежуток */
+  }
+  
+.deviz h5 {
+    margin-top: 10px; /*  Уменьшите это значение, чтобы уменьшить промежуток*/
+}
+
+  
+.deviz span {
+    color: rgb(1, 180, 40);
+    font-size: 50px;
+}
+
+.roundedbox {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .roundedimage {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-position: left;
+    margin-right: 20px;
+  }
+  
+  .roundedtext {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f7f7f7;
+  }
+  

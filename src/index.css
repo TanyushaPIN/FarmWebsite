@@ -1,6 +1,13 @@
 body {
+  background-image: url('./fon2.jpg'); /* путь к картинке,! */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 0; 
+  margin: 0; /* Убираем отступы */
+  padding: 0; /* Убираем отступы */
+  display: flex;
+  flex-direction: column;
+}
+.App { /*или другой контейнер с вашим основным контентом*/
+  flex: 1; /* Занимает доступное пространство */
 }

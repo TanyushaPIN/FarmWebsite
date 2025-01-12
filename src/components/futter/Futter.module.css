@@ -1,0 +1,46 @@
+.footer {
+    width: 100%;
+    background-color: rgb(1, 32, 12);;
+    padding: 10px 0;
+    position: absolute;
+  }
+
+  .footerContent {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .container {
+    color: #f8f8f8;
+    width: 200px;
+    margin-right: 100px; /* Добавляем отступ между колонками */
+  }
+  
+  .containerTitle {
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding-bottom: 2px;
+  }
+  
+  .containerText {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+.iconscontainer { /* Новый контейнер для иконок*/
+  display: flex;     /* Размещаем иконки в ряд*/
+  justify-content: center;
+  margin-top: 20px;
+  align-items: flex-start;
+  max-height: 30px; /* Ограничиваем высоту логотипа */
+}
+
+.iconscontainer a {  
+  margin-left: 10px;
+}
+
+.mapcontainer {
+  margin-left: 210px;
+}

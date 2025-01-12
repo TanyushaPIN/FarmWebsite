@@ -1,16 +1,56 @@
+@font-face {
+  font-family: 'Fleur De Leah';
+  src: url('../../fonts/FleurDeLeah-Regular.ttf') format('truetype');
+}
+
+
 .header {
     display: flex;
-    justify-content: space-between; /* Распределяем элементы по краям */
     align-items: center;           /* Выравниваем по вертикали */
-    padding: 5px 10px;
-    background-color: #f9dbdb;
+    padding: 10px;
+    background-color: #16401F;
+    justify-content: space-between;
   }
-  
+
   .logo {
-    flex: 1; /* Занимает доступное пространство */
+    display: flex;
+    align-items: center;
   }
   
   .logo img {
-    max-height: 110px; /* Ограничиваем высоту логотипа */
+    max-height: 55px;
+    margin-right: 10px;
   }
   
+  .companyName {
+    font-family: 'Fleur De Leah';
+    color: white;
+    font-size: 42px;
+    margin: 0;
+  }
+  .nav {  
+    margin-right: 100px;
+    display: inline-block;
+    list-style: none; /* Убираем маркеры */
+  }
+
+  .nav a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: white; /* Цвет текста */
+    margin-left: 100px; /* Отступы между вкладками*/
+    font-size: 28px;
+    position: relative; /* Нужно для position: absolute в ::after*/
+    text-shadow: 0 0 0 transparent;
+    padding: 0 15px;
+    min-width: 100px;    
+  }
+  
+  .nav a:hover {
+    text-shadow: 0 0 4px rgb(255, 255, 255); 
+  }
+
+.nav a.active {
+  border-bottom: 4px solid rgb(1, 44, 17); /* Подчеркивание активной ссылки */
+  color: white; 
+  
+}
