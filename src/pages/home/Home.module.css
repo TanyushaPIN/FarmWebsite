@@ -1,51 +1,84 @@
 @font-face {
-    font-family: 'GreatVibes';
-    src: url('../../fonts/GreatVibes-Regular.ttf') format('truetype');
+  font-family: 'GreatVibes';
+  src: url('../../fonts/GreatVibes-Regular.ttf') format('truetype');
 }
+
+.home {
+  display: flex;
+}
+
 .deviz {
-    font-family:GreatVibes;
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-    margin-left: 900px;
+  font-family: GreatVibes;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  margin-left: 100px;
+
 }
 .deviz h3 {
-    margin-bottom: 10px; /* Уменьшите это значение, чтобы уменьшить промежуток */
+  margin-bottom: 10px; /* Уменьшите это значение, чтобы уменьшить промежуток */
   }
   
 .deviz h5 {
-    margin-top: 10px; /*  Уменьшите это значение, чтобы уменьшить промежуток*/
+  margin-top: 10px; /*  Уменьшите это значение, чтобы уменьшить промежуток*/
 }
 
-  
 .deviz span {
-    color: rgb(1, 180, 40);
-    font-size: 50px;
+  color: rgb(1, 180, 40);
+  font-size: 50px;
 }
 
-.roundedbox {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #f7f7f7;
-    width: 200px;
-    height: 200px;
-  }
-  
-  .roundedimage {
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
-    background-position: left;
-    margin-right: 20px;
-  }
-  
-  .roundedtext {
-    font-size: 18px;
-    font-weight: bold;
-    color: #333;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: #f7f7f7;
-  }
-  
+.container {
+  width: 750px; /* Измените размер по необходимости */
+  height: 900px; /* Измените размер по необходимости */
+  background-color: #16401F; /* Цвет основного прямоугольника */
+  position: relative; /* Позиционирование для абсолютного позиционирования дочерних элементов */
+  margin: 30px 30px 30px 30px; /* Автоматическое центрирование */
+  border-radius: 40px;
+}
+
+.whiterectangle {
+  position: absolute;
+  background-color: white;
+  width: 690px; /* Ширина с отступами */
+  height: 400px; /* Высота с отступами */
+  top: 30px;
+  left: 30px;
+  border-radius: 40px;
+}
+.container {
+  width: 750px;
+  height: 900px;
+  background-color: #16401F;
+  position: relative;
+  margin: 30px;
+  border-radius: 40px;
+  opacity: 0.8;
+}
+
+.whiterectangle {
+  position: absolute;
+  background-color: white;
+  width: 690px;
+  height: 400px;
+  top: 30px;
+  left: 30px;
+  border-radius: 40px;
+
+}
+
+.rectangle {
+  position: absolute;
+  background-color: #ffffff;
+  width: 330px;  /* Ширина прямоугольника */
+  height: 410px;  /* Высота прямоугольника */
+  border-radius: 20px;
+  top: 460px;
+}
+
+.rectangle1 {
+  left: 30px;
+}
+
+.rectangle2 {
+  left: 390px; /* Вычисляется: 30 (отступ) + 320 (ширина прямоугольника) + 30 (отступ) */
+}
