@@ -14,8 +14,8 @@ const Footer = () => {
           <p className={styles.containerText}>+7 (9xx) xxx-xx-xx</p>
           <p className={styles.containerText}>+7 (9xx) xxx-xx-xx</p>
           <p className={styles.containerText}>+7 (9xx) xxx-xx-xx</p>
-          <p className={styles.containerText}>mailpochtaferma.@mail.ru</p>
-          <p className={styles.containerText}>mailpochtaferma2.@mail.ru</p>
+          <p className={styles.containerText}>mailpochtaferma@mail.ru</p>
+          <p className={styles.containerText}>mailpochtaferma2@mail.ru</p>
         </div>
         <div className={styles.container}>
           <h2 className={styles.containerTitle}>Будьте с Нами </h2>
@@ -31,7 +31,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className='map-container'>
+          <div className={styles.mapContainer}>
            <MapComponent />
           </div>
       </div>

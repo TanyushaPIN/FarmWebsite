@@ -29,8 +29,8 @@
 
 .container {
   width: 750px; /* Измените размер по необходимости */
-  height: 900px; /* Измените размер по необходимости */
-  background-color: #16401F; /* Цвет основного прямоугольника */
+  height: 950px; /* Измените размер по необходимости */
+  background-color: rgba(22, 64, 31, 0.8); /* Цвет основного прямоугольника с прозрачностью */
   position: relative; /* Позиционирование для абсолютного позиционирования дочерних элементов */
   margin: 30px 30px 30px 30px; /* Автоматическое центрирование */
   border-radius: 40px;
@@ -39,46 +39,112 @@
 .whiterectangle {
   position: absolute;
   background-color: white;
-  width: 690px; /* Ширина с отступами */
-  height: 400px; /* Высота с отступами */
-  top: 30px;
-  left: 30px;
+  width: 710px;
+  height: 420px;
+  top: 20px;
+  left: 20px;
   border-radius: 40px;
-}
-.container {
-  width: 750px;
-  height: 900px;
-  background-color: #16401F;
-  position: relative;
-  margin: 30px;
-  border-radius: 40px;
-  opacity: 0.8;
 }
 
-.whiterectangle {
+.whiterectangle img{
+  width: 45%;
+  height: 100%;
+}
+.whiterectangle p{
   position: absolute;
-  background-color: white;
-  width: 690px;
-  height: 400px;
-  top: 30px;
-  left: 30px;
-  border-radius: 40px;
-
+  top: -25px;
+  right: 0;
+  width: 50%;
+  padding: 20px;
+  font-size: 22px;
+  color: #16401F;
 }
-
 .rectangle {
   position: absolute;
   background-color: #ffffff;
-  width: 330px;  /* Ширина прямоугольника */
-  height: 410px;  /* Высота прямоугольника */
+  width: 340px;  /* Ширина прямоугольника */
+  height: 450px;  /* Высота прямоугольника */
   border-radius: 20px;
-  top: 460px;
+  top: 50%;
 }
-
+.p_rectangle{
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  width: calc(100% - 30px); /* Уменьшаем ширину на 30px для отступов слева и справа */
+  height: 100%;
+  font-size: 22px;
+  color: #16401F;
+}
 .rectangle1 {
-  left: 30px;
+  left: 20px;
 }
 
 .rectangle2 {
-  left: 390px; /* Вычисляется: 30 (отступ) + 320 (ширина прямоугольника) + 30 (отступ) */
+  left: 390px; 
+}
+
+.hexagon {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 300px;
+  right: 13%;
+  background-color: #ffffff;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-color: rgba(22, 64, 31, 0.8);
+}
+.hexagon2 {
+  right: 25%;
+  top: 530px;
+}
+.hexagon p {
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #16401F;
+  font-size: 20px;
+  z-index: 3;
+}
+.hexagon img {
+  position: absolute;
+  width: 25%;
+  top: calc(50% - 70px); /* Positioned 10px above the text which is at 50% */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 4;
+}
+.hexagon3 {
+  right: 1%;
+  top: 530px;
+}
+.hexagon4 {
+  right: 13%;
+  top: 760px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+
+.hexagon4 video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.hexagon::after {
+  content: ''; 
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }

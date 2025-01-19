@@ -3,9 +3,8 @@ import Header from './components/header/header';
 import Futter from './components/futter/futter';
 import { Route, Routes } from "react-router-dom"; 
 import Home     from "./pages/home/Home"; 
-import Galery  from "./pages/Galery";
-import Vacancy  from "./pages/Vacancy";
-import Contact  from "./pages/Contact";
+import Galery  from "./pages/galery/Galery";
+import Vacancy  from "./pages/vacancy/Vacancy";
 import NotFound from "./pages/NotFound";
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
         <Route index element={<Home />} />
         <Route path ="/Galery" element={<Galery />} />
         <Route path ="/Vacancy" element={<Vacancy />} />
-        <Route path ="/Contact" element={<Contact />} />
         <Route path ="*" element={<NotFound />} />
         </Route>b
       </Routes>

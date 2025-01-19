@@ -1,0 +1,44 @@
+.vacancy{
+    width:93%;
+    height: 400px;
+    background-color: rgba(22, 64, 31, 0.8);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border-radius: 40px;
+    opacity: 0.8;
+    display: flex;
+}
+.vacancy_container h1{
+    color: #ffffff;
+    margin-left: 50px;
+    font-size: 55px;
+}
+.vacancy_container{
+    color: #ffffff;
+}
+.name{
+    margin-top: 20px;
+    margin-left:50px;
+    font-size: 50px;
+}
+
+.description {
+  position: absolute;
+  left: 50px;
+  width: 50%;
+  margin-top: 125px;
+  font-size: 32px;
+}
+
+.zp {
+  position: absolute;
+  margin-top: 20px;
+  right: 60px;
+  font-size: 50px;
+}
+
+.vacancy {
+  position: relative;
+}

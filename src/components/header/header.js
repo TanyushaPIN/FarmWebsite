@@ -25,10 +25,6 @@ const Header = () => {
             to="/Vacancy"
             data-text="Вакансии"
             className={location.pathname === '/Vacancy' ? styles.active : ''}>Вакансии </Link>
-          <Link
-            to="/Contact"
-            data-text="Контакты"
-            className={location.pathname === '/Contact' ? styles.active : ''}>Контакты </Link>
         </nav>
       </header>
       <Outlet />

@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.arrow {
+    cursor: pointer;
+    font-size: 200px;
+    color: #ffffff;
+    user-select: none;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.image {
+    height: 600px;
+    width: 900px;
+}
