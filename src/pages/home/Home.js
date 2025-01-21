@@ -1,6 +1,6 @@
 import styles from './Home.module.css'
 import foto from './osnovatel 1.png'
-import video from './chichen.mov'
+import video from './chichen2.mov'
 import cow from './cow.png'
 import meat from './meat.png'
 import tractor from './tractor.png'
